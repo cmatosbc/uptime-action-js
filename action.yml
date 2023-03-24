@@ -1,0 +1,11 @@
+name: 'BC Uptime Action and Process'
+description: 'Google Upptime version for BC websites - based on Upptime Monitor'
+author: "Carlos Matos <https://github.com/cmatosbc>"
+inputs:
+  command:
+    required: true
+    description: "Command to run"
+    default: "update"
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
